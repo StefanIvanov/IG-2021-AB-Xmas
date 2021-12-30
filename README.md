@@ -1,6 +1,8 @@
 # igxmas
 
-This project was generated with [App Builder Code Gen](https://www.infragistics.com/products/appbuilder).
+This project was generated with [App Builder Code Gen](https://www.infragistics.com/products/appbuilder). When you clone the repo and run the app, you should be able to see something similar to
+<img width="764" alt="Screenshot 2021-12-30 at 16 10 32" src="https://user-images.githubusercontent.com/1702064/147754999-9943f82d-6cc5-4aaf-b785-e75bd78c93d7.png">
+
 
 ## Development server
 
