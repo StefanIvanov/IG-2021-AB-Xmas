@@ -1,0 +1,111 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.group {
+  justify-content: center;
+  align-items: flex-end;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+}
+.group_1 {
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  min-width: 50%;
+  min-height: 80%;
+  justify-content: space-between;
+  position: relative;
+}
+.textarea {
+  width: 80px;
+  height: max-content;
+  min-width: min-content;
+}
+.group_2 {
+  align-items: flex-end;
+  justify-content: space-between;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+}
+.group_3 {
+  justify-content: space-between;
+  min-width: 50px;
+  min-height: 50px;
+  position: relative;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  color: hsla(var(--igx-warn-500));
+}
+.calendar {
+  width: 417px;
+  flex-shrink: 0;
+  height: max-content;
+}
+.avatar {
+  background-color: hsla(var(--igx-primary-500));
+  color: hsla(var(--igx-grays-900));
+  margin: 0 0 20px;
+}
+.avatar_1 {
+  background-color: hsla(var(--igx-success-500));
+  color: hsla(var(--igx-grays-900));
+}
+.chip {
+  width: max-content;
+  height: max-content;
+}
+.chip_1 {
+  margin: 0 0 20px;
+}
+.switch {
+  margin: 10px;
+  width: max-content;
+  height: max-content;
+}
+.input {
+  margin: 10px 0 0;
+  width: 324px;
+  min-width: min-content;
+  height: max-content;
+}
+.slider {
+  width: 133px;
+  min-width: 50px;
+  height: max-content;
+}
+.button {
+  width: 160px;
+  min-width: min-content;
+  height: max-content;
+}
+.button-group {
+  height: auto;
+  min-width: min-content;
+}
+.checkbox {
+  margin: 0 0 20px;
+  width: max-content;
+  height: max-content;
+}
+.radio-group {
+  width: max-content;
+  height: max-content;
+}
+.radio {
+  padding: 8px;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}

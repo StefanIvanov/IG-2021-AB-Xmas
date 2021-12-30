@@ -1,0 +1,49 @@
+<div class="group_1 column">
+  <igx-icon family="material" class="icon">star</igx-icon>
+  <igx-switch labelPosition="after" [checked]="true" [disabled]="false" class="switch"></igx-switch>
+  <igx-chip [disabled]="true" class="chip">Friends</igx-chip>
+  <igx-avatar src="/assets/karsten-winegeart-n3c5pSoD2Fc-unsplash.jpg" [roundShape]="true" size="large"></igx-avatar>
+  <igx-slider [value]="{lower: 20, upper: 80}" type="range" [continuous]="true" tickLabelsOrientation="horizontal" [minValue]="0" [maxValue]="100" class="slider"></igx-slider>
+  <button igxButton="outlined" igxRipple class="button">Have a</button>
+  <igx-radio-group class="radio-group">
+    <igx-radio class="radio"></igx-radio>
+    <igx-radio class="radio"></igx-radio>
+    <igx-radio class="radio"></igx-radio>
+    <igx-radio class="radio"></igx-radio>
+    <igx-radio class="radio"></igx-radio>
+  </igx-radio-group>
+  <igx-buttongroup class="button-group">
+    <button igxButton="flat" igxRipple>
+      <igx-icon>add</igx-icon>
+      <p>very</p>
+    </button>
+    <button igxButton="flat" igxRipple>
+      <igx-icon>add</igx-icon>
+      <p>merry</p>
+    </button>
+    <button igxButton="flat" igxRipple>
+      <igx-icon>add</igx-icon>
+      <p>christmas</p>
+    </button>
+  </igx-buttongroup>
+  <igx-input-group type="box" class="input">
+    <input type="text" igxInput />
+    <label igxLabel>and a happy new 2022 year</label>
+  </igx-input-group>
+  <div class="group row">
+    <div class="group_2 column">
+      <igx-checkbox labelPosition="after" [checked]="true" [indeterminate]="false" class="checkbox"></igx-checkbox>
+      <igx-avatar initials="IG" [roundShape]="true" size="small" class="avatar"></igx-avatar>
+      <igx-chip class="chip chip_1">Cookies</igx-chip>
+      <igx-avatar icon="palette" [roundShape]="true" size="large" class="avatar_1"></igx-avatar>
+    </div>
+    <igx-calendar [vertical]="false" [weekStart]="0" [value]="date" [hasHeader]="false" class="calendar"></igx-calendar>
+    <div class="group_3 column">
+      <igx-checkbox labelPosition="after" [checked]="true" [indeterminate]="false" class="checkbox"></igx-checkbox>
+      <igx-avatar initials="IG" [roundShape]="true" size="small" class="avatar"></igx-avatar>
+      <igx-chip class="chip chip_1">and Milk</igx-chip>
+      <igx-avatar icon="code" [roundShape]="true" size="large" class="avatar_1"></igx-avatar>
+    </div>
+  </div>
+  <igx-input-group type="box" class="igx-typography__body-1 textarea"></igx-input-group>
+</div>
